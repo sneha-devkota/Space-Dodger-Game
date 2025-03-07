@@ -18,7 +18,6 @@ This project aims to create an engaging browser-based game where players control
 - Dodge the falling asteroids to increase your score.
 - The game ends if your spaceship collides with an asteroid.
 
-P.S. Don't mind the circle enclosing the spaceship and asteroid; it's the boundary box. I couldn't make it so that the game stops when the icons crash, unfortunately, but I'm still working on it!😊
 
 
 
