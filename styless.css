@@ -15,6 +15,7 @@ body {
     height: 100vh;
     position: relative;
     background-color: black;
+    background-image: url(spacee.jpg);
     overflow: hidden;
 }
 
@@ -25,7 +26,7 @@ body {
     transform: translateX(-50%) rotate(-90deg); /* Set rocket to face upwards */
     font-size: 50px; /* Adjust size of the spaceship emoji */
     z-index: 10; /* Make sure spaceship is always above asteroids */
-    border: 2px solid red; /* Visible boundary box for the spaceship */
+   /* Visible boundary box for the spaceship */
     border-radius: 50%; /* Make the boundary box oval */
 }
 
@@ -43,7 +44,7 @@ body {
     position: absolute;
     font-size: 50px; /* Default size, will be adjusted in JS */
     animation: fall 5s linear infinite; /* Animation for asteroids falling down */
-    border: 2px solid blue; /* Visible boundary box for asteroids */
+   /* Visible boundary box for asteroids */
     border-radius: 50%; /* Make the boundary box oval */
 }
 
